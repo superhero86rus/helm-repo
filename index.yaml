@@ -2,10 +2,20 @@ apiVersion: v1
 entries:
   short-service:
   - apiVersion: v2
-    appVersion: 1.0.2
-    created: "2025-04-10T14:35:31.790699023+03:00"
+    appVersion: 1.0.3
+    created: "2025-04-10T15:26:20.419778441+03:00"
     description: URL Shortener Service
-    digest: 5fa3c98fed344325940fc6c6139d4b1cd04395ff4223ce62918eea4e3e3b2453
+    digest: e4b94c386b73e755998c37c517f01f85e1e8df2bf1fa826cc02a6256b56fd0cd
+    name: short-service
+    type: application
+    urls:
+    - short-service-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.0.2
+    created: "2025-04-10T15:26:20.41916875+03:00"
+    description: URL Shortener Service
+    digest: d6caab81603e7b9c722947b11a1d0ab98528412414b1964d7c0411d616760c21
     name: short-service
     type: application
     urls:
@@ -13,7 +23,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2025-04-10T14:35:31.790502501+03:00"
+    created: "2025-04-10T15:26:20.418771952+03:00"
     description: URL Shortener Service
     digest: dc805e080d3cb99b93133d3c21511626955ec8c054fb3f5cc410e6117314c393
     name: short-service
@@ -23,7 +33,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-10T14:35:31.790299025+03:00"
+    created: "2025-04-10T15:26:20.418521589+03:00"
     description: URL Shortener Service
     digest: fcfc9ac436a51a65cb0f2af7f2328eb56cb4939e1890f0b3e2ee977af7e7463d
     name: short-service
@@ -31,4 +41,4 @@ entries:
     urls:
     - short-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-10T14:35:31.790001641+03:00"
+generated: "2025-04-10T15:26:20.418238014+03:00"
